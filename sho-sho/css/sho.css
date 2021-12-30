@@ -1,0 +1,59 @@
+@import url('./fonts/Cartoon1471Extended.ttf');
+
+.search-main-container {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-sc-logo {
+    width: 70%;
+}
+
+.search-sc-logo img {
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+}
+
+.search-form-field {
+    margin-top: -15%;
+    width: 70%;
+    height: 5%;
+    background-color: #e9e7f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.searchfield-caption {
+    margin-left: 9%;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.searchfield-input {
+    margin-left: 2%;
+    width: 70%;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.searchfield-input input {
+    width: 100%;
+    height: 40px;
+}
+
+.search-form-result {
+    margin-top: 1%;
+    width: 70%;
+    height: 70%;
+    background-color: #e9e7f0;
+    border-radius: 2%;
+}

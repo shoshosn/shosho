@@ -1,0 +1,108 @@
+@import url('./fonts/Cartoon1471Extended.ttf');
+
+.chat-main-container {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.chat-top-container {
+    margin-top: 1%;
+    width: 70%;
+    height: 5%;
+    background-color: #e9e7f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.chat-back-arrow {
+    width: 5%;
+    height: 100%;
+}
+
+.chat-back-arrow img{
+    height: 100%;
+    margin: 0% 5%;
+}
+
+.chat-user-nkname {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 120%;
+    width: 65%;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.chat-user-call {
+    width: 5%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.chat-user-call img{
+    height: 100%;
+    margin: 0% 5%;
+}
+
+
+.chat-form-result {
+    margin-top: 1%;
+    width: 70%;
+    height: 70%;
+    background-color: #e9e7f0;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.chat-form-message{
+    width: 100%;
+    margin: 1%; 
+    border-radius: 2%;
+    height: 85%;
+}
+.chat-form-panel{
+    width: 95%;
+    margin: 1%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+}
+.chat-user-send-photo {
+    width: 7%;
+    height:100%;
+}
+.chat-user-send-photo img{
+    height: 100%;
+    margin: 0% 5%;
+}
+.chat-user-input-filed {
+    height:100%;
+    width: 90%;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+.chat-user-input-filed input{
+    height:95%;
+    width: 100%;
+    border: none;
+}
+.chat-user-send-smile {
+    margin-left: 5%;
+    width: 5%;
+    height: 100%;
+}
+.chat-user-send-smile img{
+    height: 100%;
+    margin: 0% 5%;
+}

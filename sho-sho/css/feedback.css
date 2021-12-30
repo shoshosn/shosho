@@ -1,0 +1,104 @@
+@import url('./fonts/Cartoon1471Extended.ttf');
+/*
+div {
+    border: 1px solid black;
+}
+*/
+.feedback-container {
+    width: 100vw;
+    height: 60vh;
+    display: -webkit-flex; 
+    display: flex; 
+    align-items: flex-start;
+}
+
+.feedback-soc-logo {
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh
+}
+
+.feedback-soc-logo img{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.feedback-left-column {
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-rigt-column {
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed-user-avatar {
+    width: 15em;
+    height: 15em;
+    border: 2px solid rgb(179, 174, 190);
+    border-radius: 50%;
+    margin: 10px auto;
+    background-image: url('.././img/girl1.jpg');
+    background-size: cover; 
+}
+
+.feed-user1-avatar {
+    width: 15em;
+    height: 15em;
+    border: 2px solid rgb(179, 174, 190);
+    border-radius: 50%;
+    margin: 10px auto;
+    background-image: url('.././img/girl.jpg');
+    background-size: cover; 
+}
+
+
+.feed-user-avatar:hover {
+    filter: blur(4px) grayscale(100%);
+}
+
+.feed-user1-avatar:hover {
+    filter: blur(4px) grayscale(100%);
+}
+
+.feedback-user-caption {
+    margin-top: 10%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.feedback-footer {
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 20vh
+}
+
+.feedback-footer p {
+    font-size: 250%;
+    font-weight: normal;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+

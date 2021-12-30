@@ -1,0 +1,71 @@
+@import url('./fonts/Cartoon1471Extended.ttf');
+
+.account-container {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-flex; 
+    display: flex; 
+    align-items: flex-start;
+}
+
+.account-left-column {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-user-avatar {
+    width: 15em;
+    height: 15em;
+    border: 2px solid rgb(179, 174, 190);
+    border-radius: 50%;
+    margin: 10px auto;
+    background-image: url('.././img/user-avatar.png');
+    background-size: cover; 
+}
+
+.settings-caption {
+    margin-top: 10%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+
+.account-right-column {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.settings-soc-logo{
+    width: 100%;
+}
+.settings-soc-logo img {
+    width: 50%;
+}
+
+.settings-user-data {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.settings-user-data p {
+    margin-left: 5%;
+    font-size: 150%;
+    font-weight: bold; 
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.settings-user-data-higlights {
+    color:rgb(121, 103, 172);
+    font-style: italic;
+    margin-left: 2%;
+}

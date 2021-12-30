@@ -1,0 +1,148 @@
+@import url('./fonts/Cartoon1471Extended.ttf');
+
+.account-container {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-flex; 
+    display: flex; 
+    align-items: flex-start;
+}
+
+.account-left-column {
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.account-center-column {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.account-right-column {
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.soc-logo {
+    width: 100%;
+}
+
+.soc-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.soc-main {
+    width: 100%;
+}
+
+.soc-main p {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0px 0px;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.soc-main-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 30px;
+    
+}
+
+.main-menu-item-img {
+    width:  60px;
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+.main-menu-item-img img {
+    width: 100px;
+    display: block;
+}
+
+.main-menu-item-capt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.main-menu-item-capt p{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0px 140px;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.main-content-container {
+    width:  100%;
+    height: 100%;
+    border-radius: 3%;
+    background-color: #e9e7f0;
+}
+
+.main-user-avatar-container{
+    width:  80%;
+    height: 25%;
+    border-radius: 3%;
+    background-color: #e9e7f0;
+    margin: 10px auto;
+}
+.user-avatar-img {
+    width: 8em;
+    height: 8em;
+    border: 2px solid rgb(179, 174, 190);
+    border-radius: 50%;
+    margin: 10px auto;
+    background-image: url('.././img/user-avatar.png');
+    background-size: cover; 
+  }
+
+.user-nk-name {
+    width: 100%;
+}
+
+.user-nk-name p {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
+
+.main-user-exit-container{
+    width:  80%;
+    height: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-user-exit-container p {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cartoon1471Extended' , cursive;
+}
